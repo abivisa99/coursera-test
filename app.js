@@ -9,7 +9,7 @@
 
     $scope.calculateitem = function() {
       $scope.itemCount=1;
-
+      $scope.str=" ";
       var res=0;
       res=checkLunch($scope.itemname);
       if($scope.itemname==" ")
@@ -32,7 +32,6 @@
       var len=words.length;
       console.log(len);
       return len;
-      
     }
   });
 }) ();
