@@ -32,6 +32,7 @@
       var len=words.length;
       console.log(len);
       return len;
+      
     }
   });
 }) ();
