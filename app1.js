@@ -27,7 +27,6 @@
 	}
 
 
-
 	function ShoppingListCheckOffService() {
 		var service=this;
 		var toBuy = [{name: "Milk",quantity: "2"},
