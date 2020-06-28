@@ -2,6 +2,7 @@
 <center>
   <div ng-if="myInfoCtrl.userPref === undefined" id="user-info-not-signed-msg">
 <h2>  <i>  Not Signed Up Yet. Sign up Now! </i> </h2>
+<button ui-sref="public.signup" ui-sref-active="active"   style="color:black" > Sign Up Now!</button>
   </div>  </center>
 
   <table id="user-info-table" ng-if="myInfoCtrl.userPref != undefined" class="table table-borderless">
